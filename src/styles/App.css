@@ -1,0 +1,174 @@
+:root {
+  --nav-bar: rgb(0, 9, 32);
+  --font: rgb(197, 186, 139);
+  --content-back:  rgba(3, 47, 105, 0.452);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--font);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(5, 22, 65);
+  background-size: 100% 100%;
+}
+
+.nav-bar-container {
+  background: var(--nav-bar);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-bar-container a:hover {
+  color: white;
+}
+
+.nav-bar-btns-coll, .btn-menu {
+  display: none;
+}
+
+.nav-bar-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1rem;
+  width: 40%;
+}
+
+.nav-bar-btns a {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.nav-bar-icons {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0.5rem;
+  width: 40%;
+}
+
+
+/* About */
+
+.about-container {
+  display: flex;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 90%;
+}
+
+.about-content img {
+  border-radius: 50%;
+  margin-right: 2rem;;
+  width: 40%;
+}
+
+.name-mobile {
+  display: none;
+}
+
+.about-content a, .about-content a:visited {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-content a:hover {
+  color: green;
+}
+
+.about-content .MuiCard-root {
+  padding: 1rem;
+}
+
+
+/* Skills */
+
+.skills-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 2rem;
+  width: 100%;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.skills-content .MuiCard-root {
+  height: 50vh;
+  padding: 1rem;
+}
+
+.skills-content h2 {
+  text-align: center;
+}
+
+.lang img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.hskills ul {
+  columns: 2;
+}
+
+
+/* Projects */
+
+.project-container {
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.carousel {
+  margin: 2rem 0;
+  width: 70%;
+}
+
+.project-card {
+  width: 100%;
+}
+
+.MuiCardMedia-root.card-img {
+  height: 500px;
+  background-size: auto 100%;
+}

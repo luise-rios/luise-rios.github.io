@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-content img {
+    margin-right: 0;
+  }
+
+  .about-content .MuiCard-root {
+    margin-top: 2rem;
+  }
+
+  .skills-content .MuiCard-root {
+    height: 33vh;
+    padding: 1rem;
+  }
+
+  .carousel {
+    margin: 2rem 0;
+    width: 90%;
+  }
+
+  .MuiCardMedia-root.card-img {
+    height: 400px;
+    background-size: auto 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-bar-btns {
+    display: none;
+  }
+
+  .nav-bar-btns-coll {
+    display: inline-block;
+  }
+
+  .nav-bar-icons {
+    width: 90%;
+  }
+
+  .about-content img {
+    width: 60%;
+  }
+
+  .about-content .MuiTypography-h6 {
+    font-size: 1rem;
+  }
+
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .skills-content .MuiCard-root {
+    height: max-content;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) { 
+  .nav-bar-container {
+    height: 4rem;
+  }
+
+  .btn-menu {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .nav-bar-icons {
+    display: none;
+  }
+
+  .about-container {
+    padding-top: 4rem;
+  }
+
+  .name-web {
+    display: none;
+  }
+
+  .name-mobile {
+    display: inline;
+    text-align: center;
+  }
+
+  .skills-container .MuiTypography-h3, .project-container .MuiTypography-h3 {
+    font-size: 2rem;
+  }
+
+  .skills-container .MuiTypography-h5 {
+    font-size: 1.5rem;
+  }
+
+  .MuiCardMedia-root.card-img {
+    height: 250px;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .about-content img {
+    width: 80%;
+  }
+
+  .about-content .MuiCard-root {
+    padding: 0;
+  }
+
+  .skills-container {
+    padding: 0;
+  }
+
+  .skills-content {
+    width: 90%;
+  }
+
+  .hskills ul {
+    columns: 1;
+  }
+
+  
+}
+
