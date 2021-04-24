@@ -34,7 +34,7 @@ export function CarouselComponent() {
             </Typography>
           </CardContent>
           <CardActions>
-            <IconButton aria-label="page">
+            <IconButton href={project.page} aria-label="page">
               <LanguageIcon />
             </IconButton>
             <IconButton href={project.repo} aria-label="repository">
