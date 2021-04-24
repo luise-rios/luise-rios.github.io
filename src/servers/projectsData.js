@@ -16,11 +16,19 @@ export const projectsData = [
     page: "https://luise-rios.github.io/trybe-wallet/",
   },
   {
+    title: "Movie Card Library",
+    date: "novembro de 2020",
+    skills: "CRUD em React",
+    imgPath: "img/movie-library.png",
+    repo: "https://github.com/luise-rios/movie-library",
+    page: "https://luise-rios.github.io/movie-library/",
+  },
+  {
     title: "To Do List",
     date: "setembro de 2020",
     skills: "HTML, CSS, JavaScript",
     imgPath: "img/to-do-list.png",
     repo: "https://github.com/luise-rios/to-do-list",
     page: "https://luise-rios.github.io/to-do-list/",
-  }
+  },
 ];
