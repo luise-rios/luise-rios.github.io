@@ -107,21 +107,7 @@
   .MuiCardMedia-root.card-img {
     height: 250px;
     background-size: 100% 100%;
-  }
-
-  .Carousel-fullHeightHoverWrapper-7 {
-    display: none;
-    height: 0;
-  }
-
-  .project-container .MuiCardContent-root {
-    text-align: start;
-  }
-  
-  .project-container .MuiCardActions-root {
-    justify-content: flex-start;
-  }
-  
+  }  
 }
 
 @media screen and (max-width: 400px) { 
