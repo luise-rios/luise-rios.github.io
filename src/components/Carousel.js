@@ -14,7 +14,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 export function CarouselComponent() {
   return (
-    <Carousel indicators={false} animation={"slide"} className="carousel">
+    <Carousel indicators={false} animation={"slide"} autoplay={true} className="carousel">
       {projectsData.map((project, index) => 
         <Card
           className="project-card"

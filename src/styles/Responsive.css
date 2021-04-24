@@ -11,11 +11,6 @@
     margin-top: 2rem;
   }
 
-  .skills-content .MuiCard-root {
-    height: 33vh;
-    padding: 1rem;
-  }
-
   .carousel {
     margin: 2rem 0;
     width: 90%;
@@ -86,7 +81,6 @@
 
   .about-container {
     padding-top: 4rem;
-    text-align: start;
   }
 
   .about-content .MuiCard-root {
@@ -114,6 +108,20 @@
     height: 250px;
     background-size: 100% 100%;
   }
+
+  .Carousel-fullHeightHoverWrapper-7 {
+    display: none;
+    height: 0;
+  }
+
+  .project-container .MuiCardContent-root {
+    text-align: start;
+  }
+  
+  .project-container .MuiCardActions-root {
+    justify-content: flex-start;
+  }
+  
 }
 
 @media screen and (max-width: 400px) { 
@@ -132,7 +140,5 @@
   .hskills ul {
     columns: 1;
   }
-
-  
 }
 

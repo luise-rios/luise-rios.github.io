@@ -129,7 +129,7 @@ body {
 }
 
 .skills-content .MuiCard-root {
-  height: 50vh;
+  height: 100%;
   padding: 1rem;
 }
 
@@ -171,4 +171,12 @@ body {
 .MuiCardMedia-root.card-img {
   height: 500px;
   background-size: auto 100%;
+}
+
+.project-container .MuiCardContent-root {
+  text-align: center;
+}
+
+.project-container .MuiCardActions-root {
+  justify-content: center;
 }
