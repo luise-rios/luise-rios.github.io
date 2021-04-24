@@ -8,7 +8,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp'
 
 export const  options = [
   ["E-mail", "mailto:luisemiranda@gmail.com", <AlternateEmailIcon />],
-  ["WhatsApp", "", <WhatsAppIcon />],
+  ["WhatsApp", "https://api.whatsapp.com/send?phone=5521994769222", <WhatsAppIcon />],
   ["GitHub", "https://www.github.com/luise-rios", <GitHubIcon />],
   ["Linkedin", "https://www.linkedin.com/in/luise-rios", <LinkedInIcon />],
   ["Instagram", "https://www.instagram.com/luisemiranda/", <InstagramIcon />],
